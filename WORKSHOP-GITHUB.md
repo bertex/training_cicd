@@ -81,3 +81,13 @@ If you have forked before, you can update your repository as follows:
         name: python-package-distributions
         path: dist/
    ```
+
+   ## Setp 4 - Download the build
+   1. add download configuration
+   ```
+   - name: "Download python Modules - v4"
+      uses: actions/download-artifact@v4
+      with:
+        name: python-package-distributions
+        path: dist/
+   ```
